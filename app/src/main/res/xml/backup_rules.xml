@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sauvegarde système (Android 11 et avant) : ni les partages réseau et leurs identifiants,
+     ni les réglages qui portent les clés d'accès. La sauvegarde de l'app s'en charge, sans secrets. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="netfloux_shares.xml" />
+    <exclude domain="sharedpref" path="netfloux_settings.xml" />
+</full-backup-content>

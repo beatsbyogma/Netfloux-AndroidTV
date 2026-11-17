@@ -1,0 +1,3 @@
+# Copier ce fichier en "local.properties" et y coller votre clé TMDB.
+# Clé gratuite : https://www.themoviedb.org/settings/api
+TMDB_API_KEY=votre_cle_ici

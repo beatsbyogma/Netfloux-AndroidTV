@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sauvegarde système et transfert d'appareil (Android 12 et après) : mêmes exclusions. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="netfloux_shares.xml" />
+        <exclude domain="sharedpref" path="netfloux_settings.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="netfloux_shares.xml" />
+        <exclude domain="sharedpref" path="netfloux_settings.xml" />
+    </device-transfer>
+</data-extraction-rules>
